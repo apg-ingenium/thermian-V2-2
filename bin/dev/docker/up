@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+dot="$(dirname "$0")"
+"$dot"/compose up -d --quiet-pull "$@"

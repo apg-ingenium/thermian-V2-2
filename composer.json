@@ -1,0 +1,69 @@
+{
+    "name": "ingenium/thermian",
+    "description": "A Thermographic Image Analysis Application build by Ingenium",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "ext-bcmath": "*",
+        "ext-fileinfo": "*",
+        "ext-gmp": "*",
+        "ext-pdo": "*",
+        "cakephp/authentication": "^2.0",
+        "cakephp/cakephp": "^4.3",
+        "cakephp/migrations": "^3.0",
+        "cakephp/plugin-installer": "^1.3",
+        "josegonzalez/dotenv": "^3.2",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "ramsey/uuid": "^4.2",
+        "ext-zip": "*"
+    },
+    "require-dev": {
+        "cakephp/bake": "^2.3",
+        "cakephp/cakephp-codesniffer": "^4.2.0",
+        "cakephp/debug_kit": "^4.4",
+        "dereuromark/cakephp-ide-helper": "^1.13",
+        "hamcrest/hamcrest-php": "^2.0",
+        "mockery/mockery": "^1.4",
+        "phpstan/phpstan": "^1.2.0",
+        "phpstan/phpstan-mockery": "^1.0.0",
+        "phpunit/phpunit": "^9.3",
+        "psy/psysh": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Web\\": "Thermian/Web/src",
+            "WebAuthentication\\": "Thermian/Web/plugins/WebAuthentication/src/",
+            "WebAuthorization\\": "Thermian/Web/plugins/WebAuthorization/src/",
+            "HotspotWeb\\": "Thermian/Web/plugins/HotspotWeb/src/",
+            "Authentication\\": "Thermian/Application/AccessSystem/Authentication/src/",
+            "Authorization\\": "Thermian/Application/AccessSystem/Authorization/src/",
+            "Hotspot\\": "Thermian/Application/HotspotSystem/HotspotApp/src",
+            "Shared\\": "Thermian/Application/Shared/src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Web\\Test\\": "Thermian/Web/tests/",
+            "WebAuthentication\\Test\\": "Thermian/Web/plugins/WebAuthentication/tests/",
+            "WebAuthorization\\Test\\": "Thermian/Web/plugins/WebAuthorization/tests/",
+            "HotspotWeb\\Test\\": "Thermian/Web/plugins/HotspotWeb/tests/",
+            "Authentication\\Test\\": "Thermian/Application/AccessSystem/Authentication/tests/",
+            "Authorization\\Test\\": "Thermian/Application/AccessSystem/Authorization/tests/",
+            "Hotspot\\Test\\": "Thermian/Application/HotspotSystem/HotspotApp/tests/",
+            "Shared\\Test\\": "Thermian/Application/Shared/tests"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": "Web\\Console\\Installer::postInstall",
+        "post-create-project-cmd": "Web\\Console\\Installer::postInstall"
+    },
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "cakephp/plugin-installer": true
+        }
+    }
+}

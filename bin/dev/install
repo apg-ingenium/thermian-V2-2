@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+dot="$(dirname "$0")"
+
+echo Loading environment settings...
+"$dot"/load-settings || exit
+
+echo Installing docker services...
+"$dot"/docker-compose build --pull || exit
+
+echo Waking the environment up...
+"$dot"/docker-compose up -d || exit
+
+echo Installing project dependencies...
+"$dot"/composer install --no-interaction || exit
+
+echo Shutting the environment down...
+"$dot"/docker-compose down || exit

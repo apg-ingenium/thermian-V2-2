@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo Checking code standards...
+docker exec --tty php ./vendor/bin/phpcs -q

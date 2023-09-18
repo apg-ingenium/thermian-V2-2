@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+dot="$(dirname "$0")"
+"$dot"/docker-compose down

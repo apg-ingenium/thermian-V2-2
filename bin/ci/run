@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+dot=$(dirname "$0")
+"$dot"/code-standards
+"$dot"/static-analysis
+"$dot"/test

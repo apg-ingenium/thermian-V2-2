@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo Running tests...
+docker exec --tty php ./vendor/bin/phpunit "$@"

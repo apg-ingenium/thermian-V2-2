@@ -1,0 +1,1 @@
+@call %%~dp0%%docker-compose.bat up -d %*

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+command="pip install --no-cache-dir --upgrade pip setuptools wheel --quiet"
+command="$command && pip install --no-cache-dir -r requirements.txt --quiet"
+
+docker exec --tty hotspot bash -c "$command"

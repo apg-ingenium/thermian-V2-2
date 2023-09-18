@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+docker exec -it mysql mysql -u app-user -p app_database --password=app-secret \
+ -e "delete from datasets;
+     delete from image;
+     delete from analysis;
+     delete from output_csv;
+     delete from output_image;"

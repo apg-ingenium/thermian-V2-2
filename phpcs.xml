@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ruleset name="App">
+
+    <arg name="report-width" value="120"/>
+    <arg name="report" value="code"/>
+    <arg name="colors"/>
+    <arg value="p"/>
+
+    <file>Thermian/Application/Shared/src</file>
+    <file>Thermian/Application/Shared/tests</file>
+    <file>Thermian/Application/AccessSystem/Authentication/src</file>
+    <file>Thermian/Application/AccessSystem/Authentication/tests</file>
+    <file>Thermian/Application/AccessSystem/Authorization/src</file>
+    <file>Thermian/Application/AccessSystem/Authorization/tests</file>
+    <file>Thermian/Application/HotspotSystem/HotspotApp/src</file>
+    <file>Thermian/Application/HotspotSystem/HotspotApp/tests</file>
+
+    <file>Thermian/Web/src</file>
+    <file>Thermian/Web/tests</file>
+    <file>Thermian/Web/plugins/WebAuthentication/src</file>
+    <file>Thermian/Web/plugins/WebAuthentication/tests</file>
+    <file>Thermian/Web/plugins/WebAuthorization/src</file>
+    <file>Thermian/Web/plugins/WebAuthorization/tests</file>
+    <file>Thermian/Web/plugins/HotspotWeb/src</file>
+    <file>Thermian/Web/plugins/HotspotWeb/tests</file>
+
+    <rule ref="CakePHP">
+        <exclude name="CakePHP.Commenting.FunctionComment"/>
+        <exclude name="SlevomatCodingStandard.Commenting.DisallowOneLinePropertyDocComment.OneLinePropertyComment"/>
+        <exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+        <exclude name="Generic.Files.LineLength.TooLong"/>
+    </rule>
+</ruleset>

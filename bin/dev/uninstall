@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+root="."
+docker=.docker
+web=Thermian/Web
+hotspots=Thermian/Application/HotspotSystem/HotspotAI
+dot="$(dirname "$0")"
+
+echo Removing duplicate .env files...
+rm "$hotspots"/.env
+rm "$docker"/.env
+
+echo Removing temporary files...
+rm -rf "$web"/tmp
+
+echo Removing log files...
+rm -rf "$web"/logs
+
+echo Removing persisted files...
+rm -rf "$root"/persistence
+
+echo Uninstalling dependencies...
+rm -rf "$root"/vendor
+rm -rf "$hotspots"/venv
+
+echo Uninstalling docker services...
+"$dot"/docker-compose down --rmi all --volumes

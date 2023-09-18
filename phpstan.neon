@@ -1,0 +1,23 @@
+includes:
+    - vendor/phpstan/phpstan-mockery/extension.neon
+parameters:
+    bootstrapFiles:
+        - Thermian/Web/config/paths.php
+    level: 8
+    paths:
+        - Thermian/Application/AccessSystem/Authentication/src
+        - Thermian/Application/AccessSystem/Authentication/tests
+        - Thermian/Application/AccessSystem/Authorization/src
+        - Thermian/Application/AccessSystem/Authorization/tests
+        - Thermian/Application/HotspotSystem/HotspotApp/src
+        - Thermian/Application/HotspotSystem/HotspotApp/tests
+        - Thermian/Application/Shared/src
+        - Thermian/Application/Shared/tests
+        - Thermian/Web/src
+        - Thermian/Web/tests
+        - Thermian/Web/plugins/WebAuthentication/src
+        - Thermian/Web/plugins/WebAuthentication/tests
+        - Thermian/Web/plugins/WebAuthorization/src
+        - Thermian/Web/plugins/WebAuthorization/tests
+        - Thermian/Web/plugins/HotspotWeb/src
+        - Thermian/Web/plugins/HotspotWeb/tests

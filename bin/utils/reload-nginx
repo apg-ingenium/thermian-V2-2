@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker cp .docker/nginx/default.conf nginx:/etc/nginx/conf.d/default.conf
+docker exec -it nginx nginx -s reload

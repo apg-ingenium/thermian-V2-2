@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd"
+    colors="true"
+    bootstrap="phpunit.bootstrap.php"
+    beStrictAboutOutputDuringTests="true"
+    beStrictAboutChangesToGlobalState="true"
+    beStrictAboutTodoAnnotatedTests="true"
+    testdox="true"
+>
+
+    <php>
+        <ini name="memory_limit" value="-1"/>
+        <ini name="apc.enable_cli" value="1"/>
+    </php>
+
+    <testsuites>
+        <testsuite name="Authentication">
+            <directory>Thermian/Application/AccessSystem/Authentication/tests</directory>
+        </testsuite>
+        <testsuite name="Authorization">
+            <directory>Thermian/Application/AccessSystem/Authorization/tests</directory>
+        </testsuite>
+        <testsuite name="Hotspot">
+            <directory>Thermian/Application/HotspotSystem/HotspotApp/tests</directory>
+        </testsuite>
+        <testsuite name="Shared">
+            <directory>Thermian/Application/Shared/tests</directory>
+        </testsuite>
+        <testsuite name="Web">
+            <directory>Thermian/Web/tests/</directory>
+        </testsuite>
+        <testsuite name="Web Authentication">
+            <directory>Thermian/Web/plugins/WebAuthentication/tests/</directory>
+        </testsuite>
+        <testsuite name="Web Authorization">
+            <directory>Thermian/Web/plugins/WebAuthorization/tests/</directory>
+        </testsuite>
+        <testsuite name="Hotspot Web">
+            <directory>Thermian/Web/plugins/HotspotWeb/tests/</directory>
+        </testsuite>
+    </testsuites>
+
+    <extensions>
+        <extension class="\Cake\TestSuite\Fixture\PHPUnitExtension" />
+    </extensions>
+
+</phpunit>

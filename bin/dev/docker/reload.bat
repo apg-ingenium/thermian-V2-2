@@ -1,0 +1,1 @@
+@call %%~dp0%%compose.bat up -d --build --quiet-pull --force-recreate %*

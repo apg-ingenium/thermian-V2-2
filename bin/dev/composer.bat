@@ -1,0 +1,1 @@
+@docker exec --tty php composer %*

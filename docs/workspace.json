@@ -1,0 +1,1640 @@
+{
+  "id" : 1,
+  "name" : "Ingenium",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2021-11-19T13:58:03Z",
+  "lastModifiedAgent" : "structurizr-web/2553/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJJbmdlbml1bSIgewoKICAgIG1vZGVsIHsKCiAgICAgICAgdXNlciA9IHBlcnNvbiAiVXNlciIgIkEgdXNlciB3aXRoIGFuIGFjY291bnQgYW5kIHByb3BlciBwZXJtaXNzaW9ucyIKCiAgICAgICAgdGhlcm1pYW5Db3JwID0gZW50ZXJwcmlzZSAiVGhlcm1pYW4gQ29ycG9yYXRpb24iIHsKCiAgICAgICAgICAgIGFkbWluID0gcGVyc29uICJBZG1pbmlzdHJhdG9yIiAiQSBjb3Jwb3JhdGUgbWVtYmVyIHdpdGggYW4gYWNjb3VudCBhbmQgYWRtaW5pc3RyYXRpb24gcGVybWlzc2lvbnMiICJTdGFmZiIKICAgICAgICAgICAgbWVtYmVyID0gcGVyc29uICJNZW1iZXIiICJBIGNvcnBvcmF0ZSBtZW1iZXIgd2l0aCBhbiBhY2NvdW50IGFuZCBwcm9wZXIgcGVybWlzc2lvbnMiICJTdGFmZiIKCiAgICAgICAgICAgIHRoZXJtaWFuV2ViID0gc29mdHdhcmVTeXN0ZW0gIlRoZXJtaWFuIFdlYiIgIkEgd2ViIGludGVyZmFjZSB0aGF0IGFsbG93cyB1c2VycyB0byBleGVjdXRlIEFJIHN5c3RlbSBmdW5jdGlvbmFsaXR5IiB7CgogICAgICAgICAgICAgICAgd2ViQXV0aGVudGljYXRpb24gPSBjb250YWluZXIgIldlYiBBdXRoZW50aWNhdGlvbiIgIkEgd2ViIGludGVyZmFjZSB0aGF0IGV4ZWN1dGVzIGF1dGhlbnRpY2F0aW9uIGZ1bmN0aW9uYWxpdHkiICJQSFAsIENha2VQSFAsXG5IVE1MLCBDU1MsIEpTIiB7CgogICAgICAgICAgICAgICAgICAgIHdlYkF1dGhlbnRpY2F0aW9uQ29udHJvbGxlciA9IGdyb3VwICJDb250cm9sbGVyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNyZWF0ZUFjY291bnRDb250cm9sbGVyID0gY29tcG9uZW50ICJDcmVhdGUgQWNjb3VudFxuQ29udHJvbGxlciIgIkhhbmRsZXMgSFRUUCByZXF1ZXN0cyB0byBjcmVhdGUgdXNlciBhY2NvdW50cyIKICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlQWNjb3VudENvbnRyb2xsZXIgPSBjb21wb25lbnQgIlVwZGF0ZSBBY2NvdW50XG5Db250cm9sbGVyIiAiSGFuZGxlcyBIVFRQIHJlcXVlc3RzIHRvIHVwZGF0ZSB1c2VyIGFjY291bnRzIgogICAgICAgICAgICAgICAgICAgICAgICBkZWxldGVBY2NvdW50Q29udHJvbGxlciA9IGNvbXBvbmVudCAiRGVsZXRlIEFjY291bnRcbkNvbnRyb2xsZXIiICJIYW5kbGVzIEhUVFAgcmVxdWVzdHMgdG8gZGVsZXRlIHVzZXIgYWNjb3VudHMiCiAgICAgICAgICAgICAgICAgICAgICAgIGxvZ2luQ29udHJvbGxlciA9IGNvbXBvbmVudCAiTG9naW5cbkNvbnRyb2xsZXIiICJIYW5kbGVzIEhUVFAgcmVxdWVzdHMgdG8gbG9nIGluIgogICAgICAgICAgICAgICAgICAgICAgICBsb2dvdXRDb250cm9sbGVyID0gY29tcG9uZW50ICJMb2dvdXRcbkNvbnRyb2xsZXIiICJIYW5kbGVzIEhUVFAgcmVxdWVzdHMgdG8gbG9nIG91dCIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHdlYkF1dGhlbnRpY2F0aW9uVGVtcGxhdGVzID0gZ3JvdXAgIlRlbXBsYXRlcyIgewogICAgICAgICAgICAgICAgICAgICAgICBjcmVhdGVBY2NvdW50VGVtcGxhdGVzID0gY29tcG9uZW50ICJDcmVhdGUgQWNjb3VudFxuVGVtcGxhdGVzIiAiVmlzdWFsIGNvbXBvbmVudHMgcmVxdWlyZWQgdG8gY3JlYXRlIHVzZXIgYWNjb3VudHMiCiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZUFjY291bnRUZW1wbGF0ZXMgPSBjb21wb25lbnQgIlVwZGF0ZSBBY2NvdW50XG5UZW1wbGF0ZXMiICJWaXN1YWwgY29tcG9uZW50cyByZXF1aXJlZCB0byB1cGRhdGUgdXNlciBhY2NvdW50cyIKICAgICAgICAgICAgICAgICAgICAgICAgZGVsZXRlQWNjb3VudFRlbXBsYXRlcyA9IGNvbXBvbmVudCAiRGVsZXRlIEFjY291bnRcblRlbXBsYXRlcyIgIlZpc3VhbCBjb21wb25lbnRzIHJlcXVpcmVkIHRvIGRlbGV0ZSB1c2VyIGFjY291bnRzIgogICAgICAgICAgICAgICAgICAgICAgICBsb2dpblRlbXBsYXRlcyA9IGNvbXBvbmVudCAiTG9naW5cblRlbXBsYXRlcyIgIlZpc3VhbCBjb21wb25lbnRzIHJlcXVpcmVkIHRvIGxvZyBpbiIKICAgICAgICAgICAgICAgICAgICAgICAgbG9nb3V0VGVtcGxhdGVzID0gY29tcG9uZW50ICJMb2dvdXRcblRlbXBsYXRlcyIgIlZpc3VhbCBjb21wb25lbnRzIHJlcXVpcmVkIHRvIGxvZyBvdXQiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB3ZWJBdXRoZW50aWNhdGlvblNlcnZpY2UgPSBncm91cCAiQXV0aGVudGljYXRpb24gU2VydmljZSIgewogICAgICAgICAgICAgICAgICAgICAgICB3ZWJBdXRoZW50aWNhdGlvblNlcnZpY2VQcm92aWRlciA9IGNvbXBvbmVudCAiV2ViIEF1dGhlbnRpY2F0aW9uIFNlcnZpY2UgUHJvdmlkZXIiICJQcm92aWRlcyB0aGUgY29uZmlndXJlZCBhdXRoZW50aWNhdGlvbiBzZXJ2aWNlIHJlcXVpcmVkIGJ5IHRoZSBhdXRoZW50aWNhdGlvbiBtaWRkbGV3YXJlIgogICAgICAgICAgICAgICAgICAgICAgICB3ZWJBdXRoZW50aWNhdGlvbkNhbGxiYWNrID0gY29tcG9uZW50ICJBdXRoZW50aWNhdGlvbiBDYWxsYmFjayIgIkF1dGhlbnRpY2F0ZXMgYSB1c2VyIGdpdmVuIGl0cyBjcmVkZW50aWFscy4gQ2FsbGVkIGJ5IHRoZSBtaWRkbGV3YXJlIGV2ZXJ5IHRpbWUgYSB1c2VyIGxvZ3MgaW4iCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB1c2VyIC0+IHRoaXMgIkF1dGhlbnRpY2F0ZXMgdXNpbmciICIiIHVzZXJBdXRoZW50aWNhdGVzVXNpbmdXZWIKICAgICAgICAgICAgICAgICAgICBhZG1pbiAtPiB0aGlzICJBdXRoZW50aWNhdGVzIHVzaW5nIiAiIiBhZG1pbkF1dGhlbnRpY2F0ZXNVc2luZ1dlYgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHdlYkF1dGhvcml6YXRpb24gPSBjb250YWluZXIgIldlYiBBdXRob3JpemF0aW9uIiAiQSB3ZWIgaW50ZXJmYWNlIHRoYXQgZXhlY3V0ZXMgYXV0aG9yaXphdGlvbiBmdW5jdGlvbmFsaXR5IiAiUEhQLCBDYWtlUEhQLFxuSFRNTCwgQ1NTLCBKUyIgewoKICAgICAgICAgICAgICAgICAgICB3ZWJBdXRob3JpemF0aW9uTWlkZGxld2FyZSA9IGNvbXBvbmVudCAiQXV0aG9yaXphdGlvblxuTWlkZGxld2FyZSIgIkVuc3VyZXMgdGhlIHVzZXIgaGFzIGF1dGhvcml6YXRpb24gdG8gZXhlY3V0ZSBhIGdpdmVuIHVzZSBjYXNlIgoKICAgICAgICAgICAgICAgICAgICB3ZWJBdXRob3JpemF0aW9uQ29udHJvbGxlcnMgPSBncm91cCAiQ29udHJvbGxlciIgewogICAgICAgICAgICAgICAgICAgICAgICBjcmVhdGVSb2xlQ29udHJvbGxlciA9IGNvbXBvbmVudCAiQ3JlYXRlIFJvbGVcbkNvbnRyb2xsZXIiICJIYW5kbGVzIEhUVFAgcmVxdWVzdHMgdG8gY3JlYXRlIGEgcm9sZSBhbmQgYXNzb2NpYXRlIGEgc2V0IG9mIHBlcm1pc3Npb25zIgogICAgICAgICAgICAgICAgICAgICAgICBzaG93Um9sZUNvbnRyb2xsZXIgPSBjb21wb25lbnQgIlNob3cgUm9sZVxuQ29udHJvbGxlciIgIkhhbmRsZXMgSFRUUCByZXF1ZXN0cyB0byBkaXNwbGF5IGEgcm9sZSBhbmQgdGhlIGFzc29jaWF0ZWQgc2V0IG9mIHBlcm1pc3Npb25zIgogICAgICAgICAgICAgICAgICAgICAgICBsaXN0Um9sZXNDb250cm9sbGVyID0gY29tcG9uZW50ICJMaXN0IFJvbGVzXG5Db250cm9sbGVyIiAiSGFuZGxlcyBIVFRQIHJlcXVlc3RzIHRvIGRpc3BsYXkgYWxsIGF2YWlsYWJsZSByb2xlcyBhbmQgdGhlIGFzc29jaWF0ZWQgcGVybWlzc2lvbnMiCiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZVJvbGVDb250cm9sbGVyID0gY29tcG9uZW50ICJVcGRhdGUgUm9sZVxuQ29udHJvbGxlciIgIkhhbmRsZXMgSFRUUCByZXF1ZXN0cyB0byB1cGRhdGUgYSByb2xlIGFuZCB0aGUgc2V0IG9mIGFzc29jaWF0ZWQgcGVybWlzc2lvbnMiCiAgICAgICAgICAgICAgICAgICAgICAgIGRlbGV0ZVJvbGVDb250cm9sbGVyID0gY29tcG9uZW50ICJEZWxldGUgUm9sZVxuQ29udHJvbGxlciIgIkhhbmRsZXMgSFRUUCByZXF1ZXN0cyB0byBkZWxldGUgYSByb2xlIgogICAgICAgICAgICAgICAgICAgICAgICBsaXN0VXNlclBlcm1pc3Npb25zQ29udHJvbGxlciA9IGNvbXBvbmVudCAiTGlzdCBVc2VyIFBlcm1pc3Npb25zXG5Db250cm9sbGVyIiAiSGFuZGxlcyBIVFRQIHJlcXVlc3RzIHRvIGRpc3BsYXkgdGhlIHNldCBvZiBwZXJtaXNzaW9ucyBhdmFpbGFibGUgZm9yIGEgZ2l2ZW4gdXNlciIKICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlVXNlclJvbGVDb250cm9sbGVyID0gY29tcG9uZW50ICJVcGRhdGUgVXNlciBSb2xlXG5Db250cm9sbGVyIiAiSGFuZGxlcyBIVFRQIHJlcXVlc3RzIHRvIHVwZGF0ZSB0aGUgcm9sZSBvZiBhIGdpdmVuIHVzZXIiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB3ZWJBdXRob3JpemF0aW9uVGVtcGxhdGVzID0gZ3JvdXAgIlRlbXBsYXRlcyIgewogICAgICAgICAgICAgICAgICAgICAgICBjcmVhdGVSb2xlVGVtcGxhdGVzID0gY29tcG9uZW50ICJDcmVhdGUgUm9sZVxuVGVtcGxhdGVzIiAiVmlzdWFsIGNvbXBvbmVudHMgcmVxdWlyZWQgdG8gY3JlYXRlIGEgcm9sZSIKICAgICAgICAgICAgICAgICAgICAgICAgc2hvd1JvbGVUZW1wbGF0ZXMgPSBjb21wb25lbnQgIlNob3cgUm9sZVxuVGVtcGxhdGVzIiAiVmlzdWFsIGNvbXBvbmVudHMgcmVxdWlyZWQgdG8gZGlzcGxheSBhIHJvbGUiCiAgICAgICAgICAgICAgICAgICAgICAgIGxpc3RSb2xlc1RlbXBsYXRlcyA9IGNvbXBvbmVudCAiTGlzdCBSb2xlc1xuVGVtcGxhdGVzIiAiVmlzdWFsIGNvbXBvbmVudHMgcmVxdWlyZWQgdG8gbGlzdCBhdmFpbGFibGUgcm9sZXMiCiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZVJvbGVUZW1wbGF0ZXMgPSBjb21wb25lbnQgIlVwZGF0ZSBSb2xlXG5UZW1wbGF0ZXMiICJWaXN1YWwgY29tcG9uZW50cyByZXF1aXJlZCB0byB1cGRhdGUgYSByb2xlIgogICAgICAgICAgICAgICAgICAgICAgICBkZWxldGVSb2xlVGVtcGxhdGVzID0gY29tcG9uZW50ICJEZWxldGUgUm9sZVxuVGVtcGxhdGVzIiAiVmlzdWFsIGNvbXBvbmVudHMgcmVxdWlyZWQgdG8gZGVsZXRlIGEgcm9sZSIKICAgICAgICAgICAgICAgICAgICAgICAgbGlzdFVzZXJQZXJtaXNzaW9uc1RlbXBsYXRlcyA9IGNvbXBvbmVudCAiTGlzdCBVc2VyIFBlcm1pc3Npb25zXG5UZW1wbGF0ZXMiICJWaXN1YWwgY29tcG9uZW50cyByZXF1aXJlZCB0byBsaXN0IHVzZXIgcGVybWlzc2lvbnMiCiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZVVzZXJSb2xlVGVtcGxhdGVzID0gY29tcG9uZW50ICJVcGRhdGUgVXNlciBSb2xlXG5UZW1wbGF0ZXMiICJWaXN1YWwgY29tcG9uZW50cyByZXF1aXJlZCB0byB1cGRhdGUgYSB1c2VyIHJvbGUiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBhZG1pbiAtPiB0aGlzICJNYW5hZ2VzIHVzZXIgcGVybWlzc2lvbiB1c2luZyIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBob3RzcG90V2ViID0gY29udGFpbmVyICJIb3RzcG90IFdlYiIgIkEgd2ViIGludGVyZmFjZSB0aGF0IGV4ZWN1dGVzIEhvdHNwb3QgU3lzdGVtIGZ1bmN0aW9uYWxpdHkiICJQSFAsIENha2VQSFAsXG5IVE1MLCBDU1MsIEpTIiB7CgogICAgICAgICAgICAgICAgICAgIGhvdHNwb3RXZWJDb250cm9sbGVyID0gZ3JvdXAgIkNvbnRyb2xsZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgaG90c3BvdEFuYWx5c2lzQ29udHJvbGxlciA9IGNvbXBvbmVudCAiSG90c3BvdCBBbmFseXNpc1xuQ29udHJvbGxlciIgIkhhbmRsZXMgSFRUUCByZXF1ZXN0cyB0aGF0IGV4ZWN1dGUgaG90c3BvdCBkYXRhc2V0IGZ1bmN0aW9uYWxpdHkiCiAgICAgICAgICAgICAgICAgICAgICAgIGhvdHNwb3REYXRhc2V0c0NvbnRyb2xsZXIgPSBjb21wb25lbnQgIkhvdHNwb3QgRGF0YXNldFxuQ29udHJvbGxlciIgIkhhbmRsZXMgSFRUUCByZXF1ZXN0cyB0aGF0IGV4ZWN1dGUgaG90c3BvdCBhbmFseXNpcyBmdW5jdGlvbmFsaXR5IgogICAgICAgICAgICAgICAgICAgICAgICBob3RzcG90UmVzdWx0c0NvbnRyb2xsZXIgPSBjb21wb25lbnQgIkhvdHNwb3RcblJlc3VsdHNcbkNvbnRyb2xsZXIiICJIYW5kbGVzIEhUVFAgcmVxdWVzdHMgdGhhdCBleGVjdXRlIGhvdHNwb3QgcmVzdWx0IGZ1bmN0aW9uYWxpdHkiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBob3RzcG90V2ViVGVtcGxhdGVzID0gZ3JvdXAgIlRlbXBsYXRlcyIgewogICAgICAgICAgICAgICAgICAgICAgICBob3RzcG90RGF0YXNldHNUZW1wbGF0ZXMgPSBjb21wb25lbnQgIkhvdHNwb3QgRGF0YXNldFxuVGVtcGxhdGVzIiAiVmlzdWFsIGNvbXBvbmVudHMgaW52b2x2ZWQgaW4gdGhlIGV4ZWN1dGlvbiBvZiBob3RzcG90IGRhdGFzZXQgZnVuY3Rpb25hbGl0eSIKICAgICAgICAgICAgICAgICAgICAgICAgaG90c3BvdEFuYWx5c2lzVGVtcGxhdGVzID0gY29tcG9uZW50ICJIb3RzcG90IEFuYWx5c2lzXG5UZW1wbGF0ZXMiICJWaXN1YWwgY29tcG9uZW50cyBpbnZvbHZlZCBpbiB0aGUgZXhlY3V0aW9uIG9mIGhvdHNwb3QgYW5hbHlzaXMgZnVuY3Rpb25hbGl0eSIKICAgICAgICAgICAgICAgICAgICAgICAgaG90c3BvdFJlc3VsdHNUZW1wbGF0ZXMgPSBjb21wb25lbnQgIkhvdHNwb3QgUmVzdWx0c1xuVGVtcGxhdGVzIiAiVmlzdWFsIGNvbXBvbmVudHMgaW52b2x2ZWQgaW4gdGhlIGV4ZWN1dGlvbiBvZiBob3RzcG90IHJlc3VsdHMgZnVuY3Rpb25hbGl0eSIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHVzZXIgLT4gdGhpcyAiQWNjZXNzZXMgdGhlIEhvdHNwb3QgU3lzdGVtIHVzaW5nIiAiIiB1c2VyQWNjZXNzZXNIb3RzcG90U3lzdGVtCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgeFdlYiA9IGNvbnRhaW5lciAiU3lzdGVtIFggV2ViIiAiQSB3ZWIgaW50ZXJmYWNlIHRoYXQgZXhlY3V0ZXMgWCBmdW5jdGlvbmFsaXR5IiAiUEhQLCAgQ2FrZVBIUCxcbkhUTUwsIENTUywgSlMiIHsKICAgICAgICAgICAgICAgICAgICB1c2VyIC0+IHRoaXMgIkFjY2Vzc2VzIHRoZSBTeXN0ZW0gWCB1c2luZyIgIiIgdXNlckFjY2Vzc2VzWFN5c3RlbQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHVzZXIgLT4gdGhpcyAiQWNjZXNzZXMgQUkgc3lzdGVtcyB1c2luZyIKICAgICAgICAgICAgICAgIG1lbWJlciAtPiB0aGlzICJBY2Nlc3NlcyBBSSBzeXN0ZW1zIHVzaW5nIgogICAgICAgICAgICAgICAgYWRtaW4gLT4gdGhpcyAiTWFuYWdlcyB1c2VyIHBlcm1pc3Npb25zIHVzaW5nIgoKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdGhlcm1pYW5BcHAgPSBncm91cCAiVGhlcm1pYW4gQXBwIiB7CgogICAgICAgICAgICAgICAgYWNjZXNzU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIkFjY2VzcyBTeXN0ZW0iICJQcm92aWRlcyBhdXRob3JpemF0aW9uIGFuZCBhdXRoZW50aWNhdGlvbiBmdW5jdGlvbmFsaXR5IiB7CgogICAgICAgICAgICAgICAgICAgIGF1dGhvcml6YXRpb24gPSBjb250YWluZXIgIkF1dGhvcml6YXRpb24iICJDcmVhdGVzIHJvbGVzLCBhc3NvY2lhdGVzIGEgc2V0IG9mIHBlcm1pc3Npb25zIHdpdGggYSBnaXZlbiByb2xlIGFuZCBhc3NpZ25zIHJvbGVzIHRvIHVzZXJzIiAiUEhQIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHdlYkF1dGhvcml6YXRpb24gLT4gdGhpcyAiSW50ZXJmYWNlcyIKCiAgICAgICAgICAgICAgICAgICAgICAgIGF1dGhvcml6YXRpb25Vc2VDYXNlcyA9IGdyb3VwICJVc2UgQ2FzZXMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpc3RQZXJtaXNzaW9ucyA9IGNvbXBvbmVudCAiTGlzdCBQZXJtaXNzaW9ucyIgIlJldHVybnMgdGhlIHNldCBvZiBhdmFpbGFibGUgcGVybWlzc2lvbnMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcmVhdGVSb2xlID0gY29tcG9uZW50ICJDcmVhdGUgUm9sZSIgIkNyZWF0ZXMgYSByb2xlIGFuZCBhc3NvY2lhdGVzIHNvbWUgcGVybWlzc2lvbnMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsaXN0Um9sZVBlcm1pc3Npb25zID0gY29tcG9uZW50ICJMaXN0IFJvbGUgUGVybWlzc2lvbnMiICJSZXR1cm5zIHRoZSBzZXQgb2YgcGVybWlzc2lvbnMgYXNzb2NpYXRlZCB3aXRoIGEgcm9sZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZVJvbGVQZXJtaXNzaW9ucyA9IGNvbXBvbmVudCAiVXBkYXRlIFJvbGUgUGVybWlzc2lvbnMiICJVcGRhdGVzIHRoZSBzZXQgb2YgcGVybWlzc2lvbnMgYXNzb2NpYXRlZCB3aXRoIGEgcm9sZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpc3RSb2xlcyA9IGNvbXBvbmVudCAiTGlzdCBSb2xlcyIgIlJldHVybnMgdGhlIHNldCBvZiBhdmFpbGFibGUgcm9sZXMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWxldGVSb2xlID0gY29tcG9uZW50ICJEZWxldGUgUm9sZSIgIkRlbGV0ZXMgYSByb2xlIHRoYXQgaXMgbm8gbG9uZ2VyIGluIHVzZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoZWNrVXNlclBlcm1pc3Npb24gPSBjb21wb25lbnQgIkNoZWNrIFVzZXIgUGVybWlzc2lvbiIgIkNoZWNrcyB3aGV0aGVyIGEgdXNlciBoYXMgYSBnaXZlbiBwZXJtaXNzaW9uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZmluZFVzZXJSb2xlID0gY29tcG9uZW50ICJGaW5kIFVzZXIgUm9sZSIgIlJldHVybnMgdGhlIHJvbGUgb2YgYSBnaXZlbiB1c2VyIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlVXNlclJvbGUgPSBjb21wb25lbnQgIlVwZGF0ZSBVc2VyIFJvbGUiICJVcGRhdGVzIHRoZSBuYW1lIGFuZCB0aGUgc2V0IG9mIHBlcm1pc3Npb25zIGFzc29jaWF0ZWQgd2l0aCBhIHJvbGUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsaXN0VXNlcnNXaXRoUm9sZSA9IGNvbXBvbmVudCAiTGlzdCBVc2VycyBXaXRoIFJvbGUiICJSZXR1cm5zIHRoZSBzZXQgb2YgdXNlcnMgd2hvIGhhdmUgYSBnaXZlbiBwZXJtaXNzaW9uIgogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICBhdXRob3JpemF0aW9uUGVyc2lzdGVuY2UgPSBncm91cCAiUGVyc2lzdGVuY2UiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG15U3FsVXNlclJvbGVzUmVwb3NpdG9yeSA9IGNvbXBvbmVudCAiTXlTUUwgVXNlciBSb2xlcyBSZXBvc2l0b3J5IiAiTXlTUUwgaW1wbGVtZW50YXRpb24gb2YgdGhlIFVzZXIgUm9sZSBSZXBvc2l0b3J5IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgbXlTcWxSb2xlUmVwb3NpdG9yeSA9IGNvbXBvbmVudCAiTXlTUUwgUm9sZSBSZXBvc2l0b3J5IiAiTXlTUUwgaW1wbGVtZW50YXRpb24gb2YgdGhlIFJvbGUgUmVwb3NpdG9yeSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG15U3FsUm9sZVBlcm1pc3Npb25SZXBvc2l0b3J5ID0gY29tcG9uZW50ICJNeVNRTCBSb2xlIFBlcm1pc3Npb25zIFJlcG9zaXRvcnkiICJNeVNRTCBpbXBsZW1lbnRhdGlvbiBvZiB0aGUgUm9sZSBQZXJtaXNzaW9uIFJlcG9zaXRvcnkiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBteVNxbFBlcm1pc3Npb25SZXBvc2l0b3J5ID0gY29tcG9uZW50ICJNeVNRTCBQZXJtaXNzaW9uIFJlcG9zaXRvcnkiICJNeVNRTCBpbXBsZW1lbnRhdGlvbiBvZiB0aGUgUGVybWlzc2lvbiBSZXBvc2l0b3J5IgogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICBhdXRob3JpemF0aW9uRG9tYWluID0gZ3JvdXAgIkRvbWFpbiIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9sZXMgPSBjb21wb25lbnQgIlJvbGUiICJHcmFudHMgYSBzZXQgb2YgcGVybWlzc2lvbnMgdG8gYSB1c2VyIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGVybWlzc2lvbnMgPSBjb21wb25lbnQgIlBlcm1pc3Npb24iICJBbGxvd3Mgcm9sZXMgdG8gZXhlY3V0ZSBhIGdpdmVuIHVzZSBjYXNlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdXNlclJvbGVzUmVwb3NpdG9yeSA9IGNvbXBvbmVudCAiVXNlciBSb2xlcyBSZXBvc2l0b3J5IiAiU3RvcmVzIGFuZCByZXRyaWV2ZXMgdXNlciAtIHJvbGUgYXNzb2NpYXRpb25zIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9sZVJlcG9zaXRvcnkgPSBjb21wb25lbnQgIlJvbGUgUmVwb3NpdG9yeSIgIlN0b3JlcyBhbmQgcmV0cmlldmVzIHJvbGVzIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9sZVBlcm1pc3Npb25SZXBvc2l0b3J5ID0gY29tcG9uZW50ICJSb2xlIFBlcm1pc3Npb25zIFJlcG9zaXRvcnkiICJTdG9yZXMgYW5kIHJldHJpZXZlcyByb2xlIC0gcGVybWlzc2lvbiBhc3NvY2lhdGlvbnMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwZXJtaXNzaW9uUmVwb3NpdG9yeSA9IGNvbXBvbmVudCAiUGVybWlzc2lvbiBSZXBvc2l0b3J5IiAiU3RvcmVzIGFuZCByZXRyaWV2ZXMgcGVybWlzc2lvbnMiCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBhdXRob3JpemF0aW9uRGF0YWJhc2UgPSBjb250YWluZXIgIkF1dGhvcml6YXRpb24gRGF0YWJhc2UiICJTdG9yZXMgcm9sZXMsIHBlcm1pc3Npb25zLCB1c2VyLXJvbGUgYXNzb2NpYXRpb25zIGFuZCByb2xlLXBlcm1pc3Npb24gYXNzb2NpYXRpb25zIiAiTXlTUUwgRGF0YWJhc2UiICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgICAgICBhdXRob3JpemF0aW9uIC0+IHRoaXMgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byIgIlBETyIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGF1dGhlbnRpY2F0aW9uID0gY29udGFpbmVyICJBdXRoZW50aWNhdGlvbiIgIkNyZWF0ZXMgYW5kIG1hbmFnZXMgdXNlciBhY2NvdW50cyBhbmQgcHJvdmlkZXMgbG9naW4gYW5kIGxvZ291dCBmdW5jdGlvbmFsaXR5IiAiUEhQIiB7CgogICAgICAgICAgICAgICAgICAgICAgICBhdXRoZW50aWNhdGlvblVzZUNhc2VzID0gZ3JvdXAgIlVzZSBDYXNlcyIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3JlYXRlVXNlciA9IGNvbXBvbmVudCAiQ3JlYXRlIFVzZXIiICJSZWdpc3RlcnMgYSB1c2VyIGluIHRoZSBzeXN0ZW0iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB1cGRhdGVVc2VyID0gY29tcG9uZW50ICJVcGRhdGUgVXNlciIgIlVwZGF0ZXMgdXNlciBpbmZvcm1hdGlvbiBhbmQgY3JlZGVudGlhbHMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGVja1VzZXJFeGlzdHMgPSBjb21wb25lbnQgIkNoZWNrIFVzZXIgRXhpc3RlbmNlIiAiQXNzZXJ0cyB0aGUgZXhpc3RlbmNlIG9mIGEgdXNlciB3aXRoIGEgZ2l2ZW4gaWRlbnRpZmllciIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF1dGhlbnRpY2F0ZVVTZXIgPSBjb21wb25lbnQgIkF1dGhlbnRpY2F0ZSBVc2VyIiAiQXNzZXJ0cyB0aGUgZXhpc3RlbmNlIG9mIGEgdXNlciB3aXRoIHRoZSBnaXZlbiBjcmVkZW50aWFscyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlbGV0ZVVzZXIgPSBjb21wb25lbnQgIkRlbGV0ZSBVc2VyIiAiRGVsZXRlcyBhIHVzZXIgZnJvbSB0aGUgc3lzdGVtIgogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICBhdXRoZW50aWNhdGlvbkRvbWFpbiA9IGdyb3VwICJEb21haW4iIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVzZXJDb21wb25lbnQgPSBjb21wb25lbnQgIlVzZXIiICJDb250YWlucyBhY2NvdW50IGluZm9ybWF0aW9uIGFuZCBjcmVkZW50aWFscyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVzZXJSZXBvc2l0b3J5ID0gY29tcG9uZW50ICJVc2VyIFJlcG9zaXRvcnkiICJTdG9yZXMgdXNlciBhY2NvdW50IGluZm9ybWF0aW9uIgogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICBwZXJzaXN0ZW5jZURvbWFpbiA9IGdyb3VwICJQZXJzaXN0ZW5jZSIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbXlTcWxVc2VyUmVwb3NpdG9yeSA9IGNvbXBvbmVudCAiTXlTUUwgVXNlciBSZXBvc2l0b3J5IiAiTXlTUUwgaW1wbGVtZW50YXRpb24gb2YgVXNlciBSZXBvc2l0b3J5IgogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICBhdXRob3JpemF0aW9uIC0+IHRoaXMgIlJlZmVyZW5jZXMgdXNlcnMgZnJvbSIKICAgICAgICAgICAgICAgICAgICAgICAgd2ViQXV0aGVudGljYXRpb24gLT4gdGhpcyAiSW50ZXJmYWNlcyIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHVzZXJzRGF0YWJhc2UgPSBjb250YWluZXIgIlVzZXJzIERhdGFiYXNlIiAiU3RvcmVzIHVzZXIgYWNjb3VudHMgYW5kIGNyZWRlbnRpYWxzIiAiTXlTUUwgRGF0YWJhc2UiICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgICAgICBhdXRoZW50aWNhdGlvbiAtPiB0aGlzICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iICJQRE8iCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBob3RzcG90U3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIkhvdHNwb3QgU3lzdGVtIiAiUHJvdmlkZXMgaG90c3BvdCBkZXRlY3Rpb24gYW5kIGFuYWx5c2lzIGZ1bmN0aW9uYWxpdHkiIHsKCiAgICAgICAgICAgICAgICAgICAgaG90c3BvdEFwcGxpY2F0aW9uID0gY29udGFpbmVyICJIb3RzcG90IEFwcGxpY2F0aW9uIiAiIiAiUEhQIiB7CgogICAgICAgICAgICAgICAgICAgICAgICBob3RzcG90QXBwQW5hbHlzaXMgPSBjb21wb25lbnQgIkhvdHNwb3QgQW5hbHlzaXMiICJTdHJ1Y3R1cmVzIGhvdHNwb3QgZGV0ZWN0aW9uIHJlc3VsdHMgYW5kIHByb3ZpZGVzIGFuYWx5c2lzIGZ1bmN0aW9uYWxpdHkiCgogICAgICAgICAgICAgICAgICAgICAgICBob3RzcG90QXBwUmVzdWx0ID0gY29tcG9uZW50ICJIb3RzcG90IFJlc3VsdHMiICJDcmVhdGVzIG1hbmFnZXMgYW5kIGRlbGV0ZXMgaG90c3BvdCBkZXRlY3Rpb24gcmVzdWx0cyIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaG90c3BvdEFwcEFuYWx5c2lzIC0+IHRoaXMgInJlYWRzIGhvdHNwb3QgZGV0ZWN0aW9uIHJlc3VsdHMgdXNpbmciCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIGhvdHNwb3RBcHBEZXRlY3Rpb24gPSBjb21wb25lbnQgIkhvdHNwb3QgRGV0ZWN0aW9uIiAiUHJvdmlkZXMgYW4gaW50ZXJmYWNlIHRvIGV4ZWN1dGUgaG90c3BvdCBkZXRlY3Rpb24gZnVuY3Rpb25hbGl0eSIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaG90c3BvdEFwcEFuYWx5c2lzIC0+IHRoaXMgIkV4ZWN1dGVzIGhvdHNwb3QgQUkgZnVuY3Rpb25hbGl0eSB1c2luZyIKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgaG90c3BvdEFwcERhdGFzZXQgPSBjb21wb25lbnQgIkhvdHNwb3QgRGF0YXNldCIgIkNyZWF0ZXMsIG1hbmFnZXMgYW5kIGRlbGV0ZXMgaG90c3BvdCBpbnB1dCBkYXRhc2V0cyIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaG90c3BvdEFwcEFuYWx5c2lzIC0+IHRoaXMgInJlYWRzIGhvdHNwb3QgZGF0YXNldHMgdXNpbmciCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIGhvdHNwb3RXZWIgLT4gdGhpcyAiSW50ZXJmYWNlcyIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGhvdHNwb3RBbmFseXNpc0RhdGFiYXNlID0gY29udGFpbmVyICJIb3RzcG90IEFuYWx5c2lzIiAiU3RvcmVzIHN0cnVjdHVyZWQgaG90c3BvdCBhbmFseXNpcyByZXN1bHRzIiAiTXlTUUwgRGF0YWJhc2UiICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgICAgICBob3RzcG90QXBwQW5hbHlzaXMgLT4gdGhpcyAiU3RvcmVzIHN0cnVjdHVyZWQgYW5hbHlzaXMgcmVzdWx0cyBpbnRvIiAiUERPIgogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaG90c3BvdEFJU3lzdGVtID0gY29udGFpbmVyICJIb3RzcG90IEFJIFN5c3RlbSIgIiIgIlB5dGhvbiIgewogICAgICAgICAgICAgICAgICAgICAgICBob3RzcG90QUlEZXRlY3Rpb24gPSBjb21wb25lbnQgIkhvdHNwb3QgRGV0ZWN0aW9uIiAiSG9zdHMgdGhlIEFJIHRoYXQgcHJvdmlkZXMgaG90c3BvdCBkZXRlY3Rpb24gZnVuY3Rpb25hbGl0eSIKICAgICAgICAgICAgICAgICAgICAgICAgaG90c3BvdEFJUmVzdWx0cyA9IGNvbXBvbmVudCAiSG90c3BvdCBSZXN1bHRzIiAiU3RvcmVzIGhvdHNwb3QgZGV0ZWN0aW9uIHJlc3VsdHMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhvdHNwb3RBSURldGVjdGlvbiAtPiB0aGlzICJzdG9yZXMgZGV0ZWN0aW9uIHJlc3VsdHMgdXNpbmciCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgaG90c3BvdEFJRGF0YXNldCA9IGNvbXBvbmVudCAiSG90c3BvdCBEYXRhc2V0IiAiUmV0cmlldmVzIHNvbGFyIHBhbmVsIGlucHV0IiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBob3RzcG90QUlEZXRlY3Rpb24gLT4gdGhpcyAicmVhZHMgaG90c3BvdCBkYXRhc2V0cyB1c2luZyIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBob3RzcG90QXBwRGV0ZWN0aW9uIC0+IHRoaXMgIkV4ZWN1dGVzIGhvdHNwb3QgZGV0ZWN0aW9ucyB1c2luZyIgIkNvbW1hbmQgTGluZSIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGhvdHNwb3REYXRhc2V0RGF0YWJhc2UgPSBjb250YWluZXIgIkhvdHNwb3QgRGF0YXNldHMiICJTdG9yZXMgZGF0YXNldHMgb2YgdGhlcm1vZ3JhcGhpYyBzb2xhciBwYW5lbCBpbWFnZXMiICJNeVNRTCBEYXRhYmFzZSIgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGhvdHNwb3RBcHBEYXRhc2V0IC0+IHRoaXMgIlN0b3JlcyBzb2xhciBwYW5lbCBkYXRhc2V0cyBpbnRvIiAiUERPIgogICAgICAgICAgICAgICAgICAgICAgICBob3RzcG90QUlEYXRhc2V0IC0+IHRoaXMgIlJlYWRzIHNvbGFyIHBhbmVsIGltYWdlcyBmcm9tIiAiTXlTUUwgQ29ubmVjdG9yIgogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaG90c3BvdERldGVjdGlvbkRhdGFiYXNlID0gY29udGFpbmVyICJIb3RzcG90IERldGVjdGlvbiIgIlN0b3JlcyB1bnN0cnVjdHVyZWQgaG90c3BvdCBkZXRlY3Rpb24gcmVzdWx0cyBpbiBjc3YgYW5kIGltYWdlIGZvcm1hdHMiICJNeVNRTCBEYXRhYmFzZSIgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGhvdHNwb3RBcHBSZXN1bHQgLT4gdGhpcyAiUmVhZHMgaG90c3BvdCBkZXRlY3Rpb24gcmVzdWx0IGZyb20iICJQRE8iCiAgICAgICAgICAgICAgICAgICAgICAgIGhvdHNwb3RBSVJlc3VsdHMgLT4gdGhpcyAiU3RvcmVzIGhvdHNwb3QgZGV0ZWN0aW9uIHJlc3VsdCBpbnRvIiAiTXlTUUwgQ29ubmVjdG9yIgogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgYWlTeXN0ZW1YID0gc29mdHdhcmVTeXN0ZW0gIkFJIFN5c3RlbSBYIiAiUHJvdmlkZXMgWCBmdW5jdGlvbmFsaXR5IiB7CiAgICAgICAgICAgICAgICAgICAgeFdlYiAtPiB0aGlzICJJbnRlcmZhY2VzIgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgfQoKICAgICAgICB9CgogICAgfQoKICAgIHZpZXdzIHsKCiAgICAgICAgc3lzdGVtTGFuZHNjYXBlIHRoZXJtaWFuTGFuZHNjYXBlICJUaGVybWlhbiBDb3Jwb3JhdGlvbiBMYW5kc2NhcGUiIHsKICAgICAgICAgICAgaW5jbHVkZSB1c2VyIGFkbWluIG1lbWJlciB0aGVybWlhbldlYiB0aGVybWlhbkFwcAogICAgICAgICAgICBleGNsdWRlIHJlbGF0aW9uc2hpcC50YWc9PXVzZXJBdXRoZW50aWNhdGVzVXNpbmdXZWIKICAgICAgICAgICAgZXhjbHVkZSByZWxhdGlvbnNoaXAudGFnPT1hZG1pbkF1dGhlbnRpY2F0ZXNVc2luZ1dlYgogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIHRoZXJtaWFuV2ViIHsKICAgICAgICAgICAgaW5jbHVkZSAqIHRoZXJtaWFuQXBwCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgd2ViQXV0aGVudGljYXRpb24gewogICAgICAgICAgICBpbmNsdWRlICogYWNjZXNzU3lzdGVtCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgd2ViQXV0aG9yaXphdGlvbiB7CiAgICAgICAgICAgIGluY2x1ZGUgKiBhY2Nlc3NTeXN0ZW0KICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBob3RzcG90V2ViIHsKICAgICAgICAgICAgaW5jbHVkZSAqIGhvdHNwb3RTeXN0ZW0KICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBhY2Nlc3NTeXN0ZW0gewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgZXhjbHVkZSB0aGVybWlhbldlYgogICAgICAgICAgICBpbmNsdWRlIC0+d2ViQXV0aGVudGljYXRpb24gLT53ZWJBdXRob3JpemF0aW9uCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgYXV0aG9yaXphdGlvbiB7CiAgICAgICAgICAgIGluY2x1ZGUgKiB3ZWJBdXRob3JpemF0aW9uIGF1dGhvcml6YXRpb25EYXRhYmFzZSBhdXRoZW50aWNhdGlvbgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGF1dGhlbnRpY2F0aW9uIHsKICAgICAgICAgICAgaW5jbHVkZSAqIHdlYkF1dGhlbnRpY2F0aW9uIHVzZXJzRGF0YWJhc2UKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBob3RzcG90U3lzdGVtIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGV4Y2x1ZGUgdGhlcm1pYW5XZWIKICAgICAgICAgICAgaW5jbHVkZSAtPmhvdHNwb3RXZWIKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBob3RzcG90QXBwbGljYXRpb24gewogICAgICAgICAgICBpbmNsdWRlICogaG90c3BvdEFJU3lzdGVtIGhvdHNwb3RBbmFseXNpc0RhdGFiYXNlIGhvdHNwb3REYXRhc2V0RGF0YWJhc2UgaG90c3BvdERldGVjdGlvbkRhdGFiYXNlCiAgICAgICAgICAgIGluY2x1ZGUgaG90c3BvdFdlYgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGhvdHNwb3RBSVN5c3RlbSB7CiAgICAgICAgICAgIGluY2x1ZGUgKiBob3RzcG90QXBwbGljYXRpb24gaG90c3BvdERhdGFzZXREYXRhYmFzZSBob3RzcG90RGV0ZWN0aW9uRGF0YWJhc2UKICAgICAgICAgICAgZXhjbHVkZSBob3RzcG90QXBwbGljYXRpb24tPioKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkVsZW1lbnQiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFJvdW5kZWRCb3gKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNDM4ZGQ1CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICAjODViYmYwCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwODQyN2IKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIHNoYXBlIFBlcnNvbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlN0YWZmIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM3Mjg3YTYKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIHNoYXBlIFBlcnNvbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkluZnJhc3RydWN0dXJlIE5vZGUiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNmQ4NzljCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cgp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "enterprise" : {
+      "name" : "Thermian Corporation"
+    },
+    "people" : [ {
+      "id" : "2",
+      "tags" : "Element,Person,Staff",
+      "name" : "Administrator",
+      "description" : "A corporate member with an account and administration permissions",
+      "relationships" : [ {
+        "id" : "38",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "22",
+        "description" : "Manages user permission using"
+      }, {
+        "id" : "51",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Manages user permissions using"
+      }, {
+        "id" : "20",
+        "tags" : "Relationship,adminAuthenticatesUsingWeb",
+        "sourceId" : "2",
+        "destinationId" : "5",
+        "description" : "Authenticates using"
+      }, {
+        "id" : "21",
+        "tags" : "Relationship,adminAuthenticatesUsingWeb",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Authenticates using"
+      } ],
+      "location" : "Internal"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "User",
+      "description" : "A user with an account and proper permissions",
+      "relationships" : [ {
+        "id" : "18",
+        "tags" : "Relationship,userAuthenticatesUsingWeb",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Authenticates using"
+      }, {
+        "id" : "46",
+        "tags" : "Relationship,userAccessesHotspotSystem",
+        "sourceId" : "1",
+        "destinationId" : "39",
+        "description" : "Accesses the Hotspot System using"
+      }, {
+        "id" : "49",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Accesses AI systems using"
+      }, {
+        "id" : "19",
+        "tags" : "Relationship,userAuthenticatesUsingWeb",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Authenticates using"
+      }, {
+        "id" : "48",
+        "tags" : "Relationship,userAccessesXSystem",
+        "sourceId" : "1",
+        "destinationId" : "47",
+        "description" : "Accesses the System X using"
+      } ],
+      "location" : "External"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Person,Staff",
+      "name" : "Member",
+      "description" : "A corporate member with an account and proper permissions",
+      "relationships" : [ {
+        "id" : "50",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "4",
+        "description" : "Accesses AI systems using"
+      } ],
+      "location" : "Internal"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "name" : "Thermian Web",
+      "description" : "A web interface that allows users to execute AI system functionality",
+      "relationships" : [ {
+        "id" : "56",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "53",
+        "description" : "Interfaces"
+      }, {
+        "id" : "92",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "80",
+        "description" : "Interfaces"
+      }, {
+        "id" : "131",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "129",
+        "description" : "Interfaces"
+      }, {
+        "id" : "57",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "52",
+        "description" : "Interfaces"
+      }, {
+        "id" : "106",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "96",
+        "description" : "Interfaces"
+      }, {
+        "id" : "107",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "95",
+        "description" : "Interfaces"
+      } ],
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "47",
+        "tags" : "Element,Container",
+        "name" : "System X Web",
+        "description" : "A web interface that executes X functionality",
+        "relationships" : [ {
+          "id" : "130",
+          "tags" : "Relationship",
+          "sourceId" : "47",
+          "destinationId" : "129",
+          "description" : "Interfaces"
+        } ],
+        "technology" : "PHP,  CakePHP,\nHTML, CSS, JS"
+      }, {
+        "id" : "22",
+        "tags" : "Element,Container",
+        "name" : "Web Authorization",
+        "description" : "A web interface that executes authorization functionality",
+        "relationships" : [ {
+          "id" : "55",
+          "tags" : "Relationship",
+          "sourceId" : "22",
+          "destinationId" : "52",
+          "description" : "Interfaces"
+        }, {
+          "id" : "54",
+          "tags" : "Relationship",
+          "sourceId" : "22",
+          "destinationId" : "53",
+          "description" : "Interfaces"
+        } ],
+        "technology" : "PHP, CakePHP,\nHTML, CSS, JS",
+        "components" : [ {
+          "id" : "34",
+          "tags" : "Element,Component",
+          "name" : "Update Role\nTemplates",
+          "description" : "Visual components required to update a role",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "29",
+          "tags" : "Element,Component",
+          "name" : "List User Permissions\nController",
+          "description" : "Handles HTTP requests to display the set of permissions available for a given user",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "30",
+          "tags" : "Element,Component",
+          "name" : "Update User Role\nController",
+          "description" : "Handles HTTP requests to update the role of a given user",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "26",
+          "tags" : "Element,Component",
+          "name" : "List Roles\nController",
+          "description" : "Handles HTTP requests to display all available roles and the associated permissions",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "33",
+          "tags" : "Element,Component",
+          "name" : "List Roles\nTemplates",
+          "description" : "Visual components required to list available roles",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "27",
+          "tags" : "Element,Component",
+          "name" : "Update Role\nController",
+          "description" : "Handles HTTP requests to update a role and the set of associated permissions",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "37",
+          "tags" : "Element,Component",
+          "name" : "Update User Role\nTemplates",
+          "description" : "Visual components required to update a user role",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "35",
+          "tags" : "Element,Component",
+          "name" : "Delete Role\nTemplates",
+          "description" : "Visual components required to delete a role",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "31",
+          "tags" : "Element,Component",
+          "name" : "Create Role\nTemplates",
+          "description" : "Visual components required to create a role",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "32",
+          "tags" : "Element,Component",
+          "name" : "Show Role\nTemplates",
+          "description" : "Visual components required to display a role",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "28",
+          "tags" : "Element,Component",
+          "name" : "Delete Role\nController",
+          "description" : "Handles HTTP requests to delete a role",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "23",
+          "tags" : "Element,Component",
+          "name" : "Authorization\nMiddleware",
+          "description" : "Ensures the user has authorization to execute a given use case",
+          "size" : 0
+        }, {
+          "id" : "24",
+          "tags" : "Element,Component",
+          "name" : "Create Role\nController",
+          "description" : "Handles HTTP requests to create a role and associate a set of permissions",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "25",
+          "tags" : "Element,Component",
+          "name" : "Show Role\nController",
+          "description" : "Handles HTTP requests to display a role and the associated set of permissions",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "36",
+          "tags" : "Element,Component",
+          "name" : "List User Permissions\nTemplates",
+          "description" : "Visual components required to list user permissions",
+          "group" : "Templates",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "39",
+        "tags" : "Element,Container",
+        "name" : "Hotspot Web",
+        "description" : "A web interface that executes Hotspot System functionality",
+        "relationships" : [ {
+          "id" : "104",
+          "tags" : "Relationship",
+          "sourceId" : "39",
+          "destinationId" : "96",
+          "description" : "Interfaces"
+        }, {
+          "id" : "105",
+          "tags" : "Relationship",
+          "sourceId" : "39",
+          "destinationId" : "95",
+          "description" : "Interfaces"
+        } ],
+        "technology" : "PHP, CakePHP,\nHTML, CSS, JS",
+        "components" : [ {
+          "id" : "43",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Dataset\nTemplates",
+          "description" : "Visual components involved in the execution of hotspot dataset functionality",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "42",
+          "tags" : "Element,Component",
+          "name" : "Hotspot\nResults\nController",
+          "description" : "Handles HTTP requests that execute hotspot result functionality",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "41",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Dataset\nController",
+          "description" : "Handles HTTP requests that execute hotspot analysis functionality",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "45",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Results\nTemplates",
+          "description" : "Visual components involved in the execution of hotspot results functionality",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "40",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Analysis\nController",
+          "description" : "Handles HTTP requests that execute hotspot dataset functionality",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "44",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Analysis\nTemplates",
+          "description" : "Visual components involved in the execution of hotspot analysis functionality",
+          "group" : "Templates",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "name" : "Web Authentication",
+        "description" : "A web interface that executes authentication functionality",
+        "relationships" : [ {
+          "id" : "91",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "52",
+          "description" : "Interfaces"
+        }, {
+          "id" : "90",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "80",
+          "description" : "Interfaces"
+        } ],
+        "technology" : "PHP, CakePHP,\nHTML, CSS, JS",
+        "components" : [ {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "name" : "Update Account\nController",
+          "description" : "Handles HTTP requests to update user accounts",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "name" : "Update Account\nTemplates",
+          "description" : "Visual components required to update user accounts",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "11",
+          "tags" : "Element,Component",
+          "name" : "Create Account\nTemplates",
+          "description" : "Visual components required to create user accounts",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component",
+          "name" : "Login\nController",
+          "description" : "Handles HTTP requests to log in",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "name" : "Logout\nTemplates",
+          "description" : "Visual components required to log out",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "8",
+          "tags" : "Element,Component",
+          "name" : "Delete Account\nController",
+          "description" : "Handles HTTP requests to delete user accounts",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "name" : "Login\nTemplates",
+          "description" : "Visual components required to log in",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "name" : "Delete Account\nTemplates",
+          "description" : "Visual components required to delete user accounts",
+          "group" : "Templates",
+          "size" : 0
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "name" : "Create Account\nController",
+          "description" : "Handles HTTP requests to create user accounts",
+          "group" : "Controller",
+          "size" : 0
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "name" : "Authentication Callback",
+          "description" : "Authenticates a user given its credentials. Called by the middleware every time a user logs in",
+          "group" : "Authentication Service",
+          "size" : 0
+        }, {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "name" : "Web Authentication Service Provider",
+          "description" : "Provides the configured authentication service required by the authentication middleware",
+          "group" : "Authentication Service",
+          "size" : 0
+        }, {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "Logout\nController",
+          "description" : "Handles HTTP requests to log out",
+          "group" : "Controller",
+          "size" : 0
+        } ]
+      } ]
+    }, {
+      "id" : "52",
+      "tags" : "Element,Software System",
+      "name" : "Access System",
+      "description" : "Provides authorization and authentication functionality",
+      "group" : "Thermian App",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "93",
+        "tags" : "Element,Container,Database",
+        "name" : "Users Database",
+        "description" : "Stores user accounts and credentials",
+        "technology" : "MySQL Database"
+      }, {
+        "id" : "78",
+        "tags" : "Element,Container,Database",
+        "name" : "Authorization Database",
+        "description" : "Stores roles, permissions, user-role associations and role-permission associations",
+        "technology" : "MySQL Database"
+      }, {
+        "id" : "53",
+        "tags" : "Element,Container",
+        "name" : "Authorization",
+        "description" : "Creates roles, associates a set of permissions with a given role and assigns roles to users",
+        "relationships" : [ {
+          "id" : "89",
+          "tags" : "Relationship",
+          "sourceId" : "53",
+          "destinationId" : "80",
+          "description" : "References users from"
+        }, {
+          "id" : "79",
+          "tags" : "Relationship",
+          "sourceId" : "53",
+          "destinationId" : "78",
+          "description" : "Reads from and writes to",
+          "technology" : "PDO"
+        } ],
+        "technology" : "PHP",
+        "components" : [ {
+          "id" : "74",
+          "tags" : "Element,Component",
+          "name" : "User Roles Repository",
+          "description" : "Stores and retrieves user - role associations",
+          "group" : "Domain",
+          "size" : 0
+        }, {
+          "id" : "58",
+          "tags" : "Element,Component",
+          "name" : "List Permissions",
+          "description" : "Returns the set of available permissions",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "75",
+          "tags" : "Element,Component",
+          "name" : "Role Repository",
+          "description" : "Stores and retrieves roles",
+          "group" : "Domain",
+          "size" : 0
+        }, {
+          "id" : "60",
+          "tags" : "Element,Component",
+          "name" : "List Role Permissions",
+          "description" : "Returns the set of permissions associated with a role",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "72",
+          "tags" : "Element,Component",
+          "name" : "Role",
+          "description" : "Grants a set of permissions to a user",
+          "group" : "Domain",
+          "size" : 0
+        }, {
+          "id" : "62",
+          "tags" : "Element,Component",
+          "name" : "List Roles",
+          "description" : "Returns the set of available roles",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "61",
+          "tags" : "Element,Component",
+          "name" : "Update Role Permissions",
+          "description" : "Updates the set of permissions associated with a role",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "64",
+          "tags" : "Element,Component",
+          "name" : "Check User Permission",
+          "description" : "Checks whether a user has a given permission",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "65",
+          "tags" : "Element,Component",
+          "name" : "Find User Role",
+          "description" : "Returns the role of a given user",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "77",
+          "tags" : "Element,Component",
+          "name" : "Permission Repository",
+          "description" : "Stores and retrieves permissions",
+          "group" : "Domain",
+          "size" : 0
+        }, {
+          "id" : "63",
+          "tags" : "Element,Component",
+          "name" : "Delete Role",
+          "description" : "Deletes a role that is no longer in use",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "59",
+          "tags" : "Element,Component",
+          "name" : "Create Role",
+          "description" : "Creates a role and associates some permissions",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "70",
+          "tags" : "Element,Component",
+          "name" : "MySQL Role Permissions Repository",
+          "description" : "MySQL implementation of the Role Permission Repository",
+          "group" : "Persistence",
+          "size" : 0
+        }, {
+          "id" : "69",
+          "tags" : "Element,Component",
+          "name" : "MySQL Role Repository",
+          "description" : "MySQL implementation of the Role Repository",
+          "group" : "Persistence",
+          "size" : 0
+        }, {
+          "id" : "68",
+          "tags" : "Element,Component",
+          "name" : "MySQL User Roles Repository",
+          "description" : "MySQL implementation of the User Role Repository",
+          "group" : "Persistence",
+          "size" : 0
+        }, {
+          "id" : "73",
+          "tags" : "Element,Component",
+          "name" : "Permission",
+          "description" : "Allows roles to execute a given use case",
+          "group" : "Domain",
+          "size" : 0
+        }, {
+          "id" : "66",
+          "tags" : "Element,Component",
+          "name" : "Update User Role",
+          "description" : "Updates the name and the set of permissions associated with a role",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "67",
+          "tags" : "Element,Component",
+          "name" : "List Users With Role",
+          "description" : "Returns the set of users who have a given permission",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "71",
+          "tags" : "Element,Component",
+          "name" : "MySQL Permission Repository",
+          "description" : "MySQL implementation of the Permission Repository",
+          "group" : "Persistence",
+          "size" : 0
+        }, {
+          "id" : "76",
+          "tags" : "Element,Component",
+          "name" : "Role Permissions Repository",
+          "description" : "Stores and retrieves role - permission associations",
+          "group" : "Domain",
+          "size" : 0
+        } ]
+      }, {
+        "id" : "80",
+        "tags" : "Element,Container",
+        "name" : "Authentication",
+        "description" : "Creates and manages user accounts and provides login and logout functionality",
+        "relationships" : [ {
+          "id" : "94",
+          "tags" : "Relationship",
+          "sourceId" : "80",
+          "destinationId" : "93",
+          "description" : "Reads from and writes to",
+          "technology" : "PDO"
+        } ],
+        "technology" : "PHP",
+        "components" : [ {
+          "id" : "83",
+          "tags" : "Element,Component",
+          "name" : "Check User Existence",
+          "description" : "Asserts the existence of a user with a given identifier",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "88",
+          "tags" : "Element,Component",
+          "name" : "MySQL User Repository",
+          "description" : "MySQL implementation of User Repository",
+          "group" : "Persistence",
+          "size" : 0
+        }, {
+          "id" : "82",
+          "tags" : "Element,Component",
+          "name" : "Update User",
+          "description" : "Updates user information and credentials",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "86",
+          "tags" : "Element,Component",
+          "name" : "User",
+          "description" : "Contains account information and credentials",
+          "group" : "Domain",
+          "size" : 0
+        }, {
+          "id" : "84",
+          "tags" : "Element,Component",
+          "name" : "Authenticate User",
+          "description" : "Asserts the existence of a user with the given credentials",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "87",
+          "tags" : "Element,Component",
+          "name" : "User Repository",
+          "description" : "Stores user account information",
+          "group" : "Domain",
+          "size" : 0
+        }, {
+          "id" : "85",
+          "tags" : "Element,Component",
+          "name" : "Delete User",
+          "description" : "Deletes a user from the system",
+          "group" : "Use Cases",
+          "size" : 0
+        }, {
+          "id" : "81",
+          "tags" : "Element,Component",
+          "name" : "Create User",
+          "description" : "Registers a user in the system",
+          "group" : "Use Cases",
+          "size" : 0
+        } ]
+      } ]
+    }, {
+      "id" : "95",
+      "tags" : "Element,Software System",
+      "name" : "Hotspot System",
+      "description" : "Provides hotspot detection and analysis functionality",
+      "group" : "Thermian App",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "108",
+        "tags" : "Element,Container,Database",
+        "name" : "Hotspot Analysis",
+        "description" : "Stores structured hotspot analysis results",
+        "technology" : "MySQL Database"
+      }, {
+        "id" : "111",
+        "tags" : "Element,Container",
+        "name" : "Hotspot AI System",
+        "relationships" : [ {
+          "id" : "128",
+          "tags" : "Relationship",
+          "sourceId" : "111",
+          "destinationId" : "124",
+          "description" : "Stores hotspot detection result into",
+          "technology" : "MySQL Connector"
+        }, {
+          "id" : "123",
+          "tags" : "Relationship",
+          "sourceId" : "111",
+          "destinationId" : "119",
+          "description" : "Reads solar panel images from",
+          "technology" : "MySQL Connector"
+        } ],
+        "technology" : "Python",
+        "components" : [ {
+          "id" : "113",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Results",
+          "description" : "Stores hotspot detection results",
+          "relationships" : [ {
+            "id" : "127",
+            "tags" : "Relationship",
+            "sourceId" : "113",
+            "destinationId" : "124",
+            "description" : "Stores hotspot detection result into",
+            "technology" : "MySQL Connector"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "112",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Detection",
+          "description" : "Hosts the AI that provides hotspot detection functionality",
+          "relationships" : [ {
+            "id" : "114",
+            "tags" : "Relationship",
+            "sourceId" : "112",
+            "destinationId" : "113",
+            "description" : "stores detection results using"
+          }, {
+            "id" : "116",
+            "tags" : "Relationship",
+            "sourceId" : "112",
+            "destinationId" : "115",
+            "description" : "reads hotspot datasets using"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "115",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Dataset",
+          "description" : "Retrieves solar panel input",
+          "relationships" : [ {
+            "id" : "122",
+            "tags" : "Relationship",
+            "sourceId" : "115",
+            "destinationId" : "119",
+            "description" : "Reads solar panel images from",
+            "technology" : "MySQL Connector"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "96",
+        "tags" : "Element,Container",
+        "name" : "Hotspot Application",
+        "relationships" : [ {
+          "id" : "126",
+          "tags" : "Relationship",
+          "sourceId" : "96",
+          "destinationId" : "124",
+          "description" : "Reads hotspot detection result from",
+          "technology" : "PDO"
+        }, {
+          "id" : "121",
+          "tags" : "Relationship",
+          "sourceId" : "96",
+          "destinationId" : "119",
+          "description" : "Stores solar panel datasets into",
+          "technology" : "PDO"
+        }, {
+          "id" : "110",
+          "tags" : "Relationship",
+          "sourceId" : "96",
+          "destinationId" : "108",
+          "description" : "Stores structured analysis results into",
+          "technology" : "PDO"
+        }, {
+          "id" : "118",
+          "tags" : "Relationship",
+          "sourceId" : "96",
+          "destinationId" : "111",
+          "description" : "Executes hotspot detections using",
+          "technology" : "Command Line"
+        } ],
+        "technology" : "PHP",
+        "components" : [ {
+          "id" : "102",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Dataset",
+          "description" : "Creates, manages and deletes hotspot input datasets",
+          "relationships" : [ {
+            "id" : "120",
+            "tags" : "Relationship",
+            "sourceId" : "102",
+            "destinationId" : "119",
+            "description" : "Stores solar panel datasets into",
+            "technology" : "PDO"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "100",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Detection",
+          "description" : "Provides an interface to execute hotspot detection functionality",
+          "relationships" : [ {
+            "id" : "117",
+            "tags" : "Relationship",
+            "sourceId" : "100",
+            "destinationId" : "111",
+            "description" : "Executes hotspot detections using",
+            "technology" : "Command Line"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "98",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Results",
+          "description" : "Creates manages and deletes hotspot detection results",
+          "relationships" : [ {
+            "id" : "125",
+            "tags" : "Relationship",
+            "sourceId" : "98",
+            "destinationId" : "124",
+            "description" : "Reads hotspot detection result from",
+            "technology" : "PDO"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "97",
+          "tags" : "Element,Component",
+          "name" : "Hotspot Analysis",
+          "description" : "Structures hotspot detection results and provides analysis functionality",
+          "relationships" : [ {
+            "id" : "109",
+            "tags" : "Relationship",
+            "sourceId" : "97",
+            "destinationId" : "108",
+            "description" : "Stores structured analysis results into",
+            "technology" : "PDO"
+          }, {
+            "id" : "99",
+            "tags" : "Relationship",
+            "sourceId" : "97",
+            "destinationId" : "98",
+            "description" : "reads hotspot detection results using"
+          }, {
+            "id" : "103",
+            "tags" : "Relationship",
+            "sourceId" : "97",
+            "destinationId" : "102",
+            "description" : "reads hotspot datasets using"
+          }, {
+            "id" : "101",
+            "tags" : "Relationship",
+            "sourceId" : "97",
+            "destinationId" : "100",
+            "description" : "Executes hotspot AI functionality using"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "119",
+        "tags" : "Element,Container,Database",
+        "name" : "Hotspot Datasets",
+        "description" : "Stores datasets of thermographic solar panel images",
+        "technology" : "MySQL Database"
+      }, {
+        "id" : "124",
+        "tags" : "Element,Container,Database",
+        "name" : "Hotspot Detection",
+        "description" : "Stores unstructured hotspot detection results in csv and image formats",
+        "technology" : "MySQL Database"
+      } ]
+    }, {
+      "id" : "129",
+      "tags" : "Element,Software System",
+      "name" : "AI System X",
+      "description" : "Provides X functionality",
+      "group" : "Thermian App",
+      "location" : "Internal"
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "description" : "Thermian Corporation Landscape",
+      "key" : "thermianLandscape",
+      "dimensions" : {
+        "width" : 1904,
+        "height" : 2410
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 752,
+        "y" : 199
+      }, {
+        "id" : "2",
+        "x" : 265,
+        "y" : 721
+      }, {
+        "id" : "3",
+        "x" : 1240,
+        "y" : 721
+      }, {
+        "id" : "4",
+        "x" : 735,
+        "y" : 1190
+      }, {
+        "id" : "129",
+        "x" : 1215,
+        "y" : 1743
+      }, {
+        "id" : "95",
+        "x" : 727,
+        "y" : 1745
+      }, {
+        "id" : "52",
+        "x" : 240,
+        "y" : 1745
+      } ],
+      "relationships" : [ {
+        "id" : "107"
+      }, {
+        "id" : "50",
+        "vertices" : [ {
+          "x" : 1385,
+          "y" : 1285
+        } ]
+      }, {
+        "id" : "51",
+        "vertices" : [ {
+          "x" : 565,
+          "y" : 1295
+        } ]
+      }, {
+        "id" : "131",
+        "vertices" : [ {
+          "x" : 1415,
+          "y" : 1495
+        } ]
+      }, {
+        "id" : "57",
+        "vertices" : [ {
+          "x" : 505,
+          "y" : 1505
+        } ]
+      }, {
+        "id" : "49"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "4",
+      "key" : "ThermianWeb-Container",
+      "dimensions" : {
+        "width" : 2379,
+        "height" : 2095
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 219,
+        "y" : 947
+      }, {
+        "id" : "1",
+        "x" : 1236,
+        "y" : 199
+      }, {
+        "id" : "2",
+        "x" : 492,
+        "y" : 199
+      }, {
+        "id" : "47",
+        "x" : 1709,
+        "y" : 947
+      }, {
+        "id" : "5",
+        "x" : 715,
+        "y" : 945
+      }, {
+        "id" : "39",
+        "x" : 1211,
+        "y" : 947
+      }, {
+        "id" : "129",
+        "x" : 1709,
+        "y" : 1595
+      }, {
+        "id" : "95",
+        "x" : 1210,
+        "y" : 1595
+      }, {
+        "id" : "52",
+        "x" : 467,
+        "y" : 1595
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "91"
+      }, {
+        "id" : "130"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "48"
+      }, {
+        "id" : "38"
+      }, {
+        "id" : "105"
+      } ]
+    }, {
+      "softwareSystemId" : "52",
+      "key" : "AccessSystem-Container",
+      "dimensions" : {
+        "width" : 1668,
+        "height" : 2593
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 997,
+        "y" : 865
+      }, {
+        "id" : "78",
+        "x" : 997,
+        "y" : 1999
+      }, {
+        "id" : "1",
+        "x" : 244,
+        "y" : 199
+      }, {
+        "id" : "2",
+        "x" : 1022,
+        "y" : 199
+      }, {
+        "id" : "5",
+        "x" : 219,
+        "y" : 865
+      }, {
+        "id" : "80",
+        "x" : 220,
+        "y" : 1430
+      }, {
+        "id" : "93",
+        "x" : 219,
+        "y" : 1999
+      }, {
+        "id" : "53",
+        "x" : 997,
+        "y" : 1430
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "94"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "79"
+      }, {
+        "id" : "89"
+      }, {
+        "id" : "90"
+      }, {
+        "id" : "38"
+      } ]
+    }, {
+      "softwareSystemId" : "95",
+      "key" : "HotspotSystem-Container",
+      "dimensions" : {
+        "width" : 1740,
+        "height" : 2617
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "111",
+        "x" : 1050,
+        "y" : 1390
+      }, {
+        "id" : "1",
+        "x" : 1075,
+        "y" : 200
+      }, {
+        "id" : "124",
+        "x" : 1050,
+        "y" : 2024
+      }, {
+        "id" : "39",
+        "x" : 220,
+        "y" : 255
+      }, {
+        "id" : "108",
+        "x" : 220,
+        "y" : 2024
+      }, {
+        "id" : "119",
+        "x" : 1050,
+        "y" : 754
+      }, {
+        "id" : "96",
+        "x" : 220,
+        "y" : 1390
+      } ],
+      "relationships" : [ {
+        "id" : "118"
+      }, {
+        "id" : "110"
+      }, {
+        "id" : "121"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "123"
+      }, {
+        "id" : "104"
+      }, {
+        "id" : "128"
+      }, {
+        "id" : "126"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "ThermianWeb-HotspotWeb-Component",
+      "dimensions" : {
+        "width" : 1865,
+        "height" : 1720
+      },
+      "containerId" : "39",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "44",
+        "x" : 707,
+        "y" : 660
+      }, {
+        "id" : "45",
+        "x" : 1175,
+        "y" : 660
+      }, {
+        "id" : "40",
+        "x" : 707,
+        "y" : 240
+      }, {
+        "id" : "95",
+        "x" : 707,
+        "y" : 1230
+      }, {
+        "id" : "41",
+        "x" : 240,
+        "y" : 240
+      }, {
+        "id" : "42",
+        "x" : 1175,
+        "y" : 240
+      }, {
+        "id" : "43",
+        "x" : 240,
+        "y" : 660
+      } ]
+    }, {
+      "key" : "ThermianWeb-WebAuthentication-Component",
+      "dimensions" : {
+        "width" : 1935,
+        "height" : 2906
+      },
+      "containerId" : "5",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 240,
+        "y" : 1035
+      }, {
+        "id" : "12",
+        "x" : 742,
+        "y" : 1035
+      }, {
+        "id" : "13",
+        "x" : 1245,
+        "y" : 1035
+      }, {
+        "id" : "14",
+        "x" : 491,
+        "y" : 1385
+      }, {
+        "id" : "15",
+        "x" : 993,
+        "y" : 1385
+      }, {
+        "id" : "16",
+        "x" : 993,
+        "y" : 1845
+      }, {
+        "id" : "17",
+        "x" : 491,
+        "y" : 1845
+      }, {
+        "id" : "6",
+        "x" : 240,
+        "y" : 240
+      }, {
+        "id" : "7",
+        "x" : 742,
+        "y" : 240
+      }, {
+        "id" : "8",
+        "x" : 1245,
+        "y" : 240
+      }, {
+        "id" : "9",
+        "x" : 491,
+        "y" : 585
+      }, {
+        "id" : "52",
+        "x" : 742,
+        "y" : 2406
+      }, {
+        "id" : "10",
+        "x" : 993,
+        "y" : 585
+      } ]
+    }, {
+      "key" : "HotspotSystem-HotspotApplication-Component",
+      "dimensions" : {
+        "width" : 3209,
+        "height" : 2491
+      },
+      "containerId" : "96",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "100",
+        "x" : 1780,
+        "y" : 1305
+      }, {
+        "id" : "111",
+        "x" : 2559,
+        "y" : 1305
+      }, {
+        "id" : "102",
+        "x" : 1780,
+        "y" : 713
+      }, {
+        "id" : "124",
+        "x" : 2559,
+        "y" : 1898
+      }, {
+        "id" : "39",
+        "x" : 1389,
+        "y" : 200
+      }, {
+        "id" : "119",
+        "x" : 2559,
+        "y" : 713
+      }, {
+        "id" : "108",
+        "x" : 200,
+        "y" : 1305
+      }, {
+        "id" : "97",
+        "x" : 999,
+        "y" : 1305
+      }, {
+        "id" : "98",
+        "x" : 1780,
+        "y" : 1898
+      } ],
+      "relationships" : [ {
+        "id" : "109"
+      }, {
+        "id" : "120"
+      }, {
+        "id" : "99",
+        "vertices" : [ {
+          "x" : 1569,
+          "y" : 2048
+        } ]
+      }, {
+        "id" : "101"
+      }, {
+        "id" : "123"
+      }, {
+        "id" : "103",
+        "vertices" : [ {
+          "x" : 1584,
+          "y" : 868
+        } ]
+      }, {
+        "id" : "128"
+      }, {
+        "id" : "125"
+      }, {
+        "id" : "117"
+      } ]
+    }, {
+      "key" : "ThermianWeb-WebAuthorization-Component",
+      "dimensions" : {
+        "width" : 2339,
+        "height" : 2750
+      },
+      "containerId" : "22",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "33",
+        "x" : 1180,
+        "y" : 1370
+      }, {
+        "id" : "34",
+        "x" : 1650,
+        "y" : 1370
+      }, {
+        "id" : "23",
+        "x" : 945,
+        "y" : 220
+      }, {
+        "id" : "35",
+        "x" : 475,
+        "y" : 1695
+      }, {
+        "id" : "24",
+        "x" : 240,
+        "y" : 610
+      }, {
+        "id" : "25",
+        "x" : 710,
+        "y" : 610
+      }, {
+        "id" : "36",
+        "x" : 945,
+        "y" : 1695
+      }, {
+        "id" : "37",
+        "x" : 1415,
+        "y" : 1695
+      }, {
+        "id" : "26",
+        "x" : 1180,
+        "y" : 610
+      }, {
+        "id" : "27",
+        "x" : 1650,
+        "y" : 610
+      }, {
+        "id" : "28",
+        "x" : 475,
+        "y" : 935
+      }, {
+        "id" : "29",
+        "x" : 945,
+        "y" : 935
+      }, {
+        "id" : "30",
+        "x" : 1415,
+        "y" : 935
+      }, {
+        "id" : "52",
+        "x" : 945,
+        "y" : 2250
+      }, {
+        "id" : "31",
+        "x" : 240,
+        "y" : 1370
+      }, {
+        "id" : "32",
+        "x" : 710,
+        "y" : 1370
+      } ]
+    }, {
+      "key" : "AccessSystem-Authentication-Component",
+      "dimensions" : {
+        "width" : 1889,
+        "height" : 2935
+      },
+      "containerId" : "80",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "88",
+        "x" : 720,
+        "y" : 1844
+      }, {
+        "id" : "5",
+        "x" : 720,
+        "y" : 200
+      }, {
+        "id" : "81",
+        "x" : 240,
+        "y" : 656
+      }, {
+        "id" : "82",
+        "x" : 720,
+        "y" : 650
+      }, {
+        "id" : "93",
+        "x" : 720,
+        "y" : 2435
+      }, {
+        "id" : "83",
+        "x" : 480,
+        "y" : 984
+      }, {
+        "id" : "84",
+        "x" : 960,
+        "y" : 984
+      }, {
+        "id" : "85",
+        "x" : 1200,
+        "y" : 655
+      }, {
+        "id" : "86",
+        "x" : 480,
+        "y" : 1414
+      }, {
+        "id" : "87",
+        "x" : 960,
+        "y" : 1414
+      } ]
+    }, {
+      "key" : "HotspotSystem-HotspotAISystem-Component",
+      "dimensions" : {
+        "width" : 1740,
+        "height" : 2385
+      },
+      "containerId" : "111",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "112",
+        "x" : 615,
+        "y" : 715
+      }, {
+        "id" : "113",
+        "x" : 945,
+        "y" : 1260
+      }, {
+        "id" : "124",
+        "x" : 945,
+        "y" : 1885
+      }, {
+        "id" : "115",
+        "x" : 285,
+        "y" : 1260
+      }, {
+        "id" : "119",
+        "x" : 285,
+        "y" : 1885
+      }, {
+        "id" : "96",
+        "x" : 615,
+        "y" : 200
+      } ],
+      "relationships" : [ {
+        "id" : "122"
+      }, {
+        "id" : "127"
+      }, {
+        "id" : "114",
+        "vertices" : [ {
+          "x" : 1151,
+          "y" : 1066
+        } ]
+      }, {
+        "id" : "116",
+        "vertices" : [ {
+          "x" : 521,
+          "y" : 1051
+        } ]
+      } ]
+    }, {
+      "key" : "AccessSystem-Authorization-Component",
+      "dimensions" : {
+        "width" : 2426,
+        "height" : 3690
+      },
+      "containerId" : "53",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "77",
+        "x" : 1735,
+        "y" : 2142
+      }, {
+        "id" : "66",
+        "x" : 737,
+        "y" : 1335
+      }, {
+        "id" : "22",
+        "x" : 986,
+        "y" : 199
+      }, {
+        "id" : "67",
+        "x" : 1235,
+        "y" : 1335
+      }, {
+        "id" : "78",
+        "x" : 691,
+        "y" : 3189
+      }, {
+        "id" : "68",
+        "x" : 239,
+        "y" : 2598
+      }, {
+        "id" : "58",
+        "x" : 239,
+        "y" : 665
+      }, {
+        "id" : "69",
+        "x" : 737,
+        "y" : 2598
+      }, {
+        "id" : "59",
+        "x" : 737,
+        "y" : 665
+      }, {
+        "id" : "80",
+        "x" : 1337,
+        "y" : 3189
+      }, {
+        "id" : "70",
+        "x" : 1235,
+        "y" : 2598
+      }, {
+        "id" : "71",
+        "x" : 1735,
+        "y" : 2598
+      }, {
+        "id" : "60",
+        "x" : 1235,
+        "y" : 665
+      }, {
+        "id" : "72",
+        "x" : 737,
+        "y" : 1803
+      }, {
+        "id" : "61",
+        "x" : 1735,
+        "y" : 665
+      }, {
+        "id" : "62",
+        "x" : 239,
+        "y" : 1000
+      }, {
+        "id" : "73",
+        "x" : 1235,
+        "y" : 1798
+      }, {
+        "id" : "63",
+        "x" : 737,
+        "y" : 1000
+      }, {
+        "id" : "74",
+        "x" : 239,
+        "y" : 2142
+      }, {
+        "id" : "75",
+        "x" : 737,
+        "y" : 2142
+      }, {
+        "id" : "64",
+        "x" : 1235,
+        "y" : 1000
+      }, {
+        "id" : "76",
+        "x" : 1235,
+        "y" : 2142
+      }, {
+        "id" : "65",
+        "x" : 1735,
+        "y" : 1000
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Element",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Component",
+          "background" : "#85bbf0",
+          "color" : "#000000"
+        }, {
+          "tag" : "Person",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        }, {
+          "tag" : "Staff",
+          "background" : "#7287a6",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        }, {
+          "tag" : "Infrastructure Node",
+          "background" : "#ffffff"
+        }, {
+          "tag" : "Database",
+          "background" : "#6d879c",
+          "shape" : "Cylinder"
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "HotspotSystem-HotspotAISystem-Component"
+    }
+  }
+}

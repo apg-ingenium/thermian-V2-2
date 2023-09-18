@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+command="yes | pip install --no-cache-dir --upgrade pip setuptools wheel --progress-bar off"
+command="$command && yes | pip install --no-cache-dir -r requirements.txt --progress-bar off"
+
+docker exec --tty hotspot bash -c "$command"

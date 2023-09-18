@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+dot="$(dirname "$0")"
+root="$(dirname "$dot")"
+root="$(dirname "$root")"
+docker="$root"/.docker
+hotspot_ai="Thermian/Application/HotspotSystem/HotspotAI"
+
+cp -n "$root"/.env.example "$root"/.env || exit
+sed -i "s/USER_ID=.*/USER_ID=\"$(id -u)\"/" "$root"/.env || exit
+sed -i "s/GROUP_ID=.*/GROUP_ID=\"$(id -g)\"/" "$root"/.env || exit
+cp -n "$root"/.env "$hotspot_ai"/.env || exit
+cp -n "$root"/.env "$docker"/.env || exit

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo Fixing code standards...
+docker exec --tty php ./vendor/bin/phpcbf -q
