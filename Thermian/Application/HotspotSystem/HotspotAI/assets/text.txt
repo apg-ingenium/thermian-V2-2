@@ -1,0 +1,3 @@
+temperature,x_coordinate,y_coordinate,width,height,severity
+63,223,115,12,18,low
+43,253,215,10,13,medium
