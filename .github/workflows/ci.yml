@@ -1,0 +1,44 @@
+name: CI - Docker
+
+on:
+  push:
+    branches:
+      - master
+      - experiment
+
+jobs:
+
+  continuous-integration:
+    name: Continuous Integration
+    runs-on: ubuntu-18.04
+
+    steps:
+
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Load environment settings
+        run: |
+          chmod -R +x ./bin
+          ./bin/dev/load-settings
+
+      - name: Install docker services
+        run: ./bin/dev/docker/build
+
+      - name: Wake the environment up
+        run: ./bin/dev/up
+
+      - name: Install dependencies
+        run: ./bin/dev/install-deps
+
+      - name: Check code standards
+        run: ./bin/ci/code-standards
+
+      - name: Perform static analysis
+        run: ./bin/ci/static-analysis
+
+      - name: Run tests
+        run: ./bin/ci/test
+
+      - name: Health Check
+        run: curl localhost
