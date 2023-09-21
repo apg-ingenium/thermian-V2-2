@@ -1,0 +1,42 @@
+services:
+
+  web-server:
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+      target: development
+    volumes:
+      - ..:/app
+
+  php:
+    build:
+      context: .
+      dockerfile: ./php/Dockerfile
+      target: development
+    volumes:
+      - ..:/app
+
+  hotspot:
+    build:
+      context: ..
+      dockerfile: ./.docker/hotspot/Dockerfile
+      target: base
+    volumes:
+      - ../${HOTSPOT_AI_ROOT}:/app
+
+  database:
+    ports:
+      - 3306:3306
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    links:
+      - database
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: always
+    ports:
+      - 8085:80

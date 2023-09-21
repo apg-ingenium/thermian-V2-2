@@ -1,0 +1,12 @@
+services:
+
+  architecture:
+    container_name: arch
+    image: structurizr/lite
+    environment:
+      TZ: ${TIMEZONE}
+    volumes:
+      - ../docs/workspace.dsl:/usr/local/structurizr/workspace.dsl
+      - ../docs/workspace.json:/usr/local/structurizr/workspace.json
+    ports:
+      - 3000:8080
