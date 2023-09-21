@@ -1,0 +1,11 @@
+fastapi==0.70
+uvicorn==0.15
+tensorflow==1.15
+numpy==1.21
+matplotlib==3.5
+pillow==8.4
+mysql-connector-python~=8.0.26
+python-dotenv~=0.19.0
+python-magic~=0.4.24
+pydantic==1.8.2
+six~=1.16.0
