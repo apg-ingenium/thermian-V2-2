@@ -1,0 +1,78 @@
+services:
+
+  web-server:
+    container_name: ${NGINX_HOST}
+    build:
+      args:
+        NGINX_VER: 1.21-alpine
+    environment:
+      TZ: ${TIMEZONE}
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      php:
+        condition: service_started
+
+  php:
+    container_name: ${PHP_HOST}
+    build:
+      args:
+        PHP_VER: 8.0
+        USER_ID: ${USER_ID}
+        GROUP_ID: ${GROUP_ID}
+    environment:
+      TZ: ${TIMEZONE}
+    depends_on:
+      database:
+        condition: service_healthy
+
+  hotspot:
+    container_name: ${HOTSPOT_AI_HOST}
+    build:
+      args:
+        HOTSPOT_AI_ROOT: ${HOTSPOT_AI_ROOT}
+    environment:
+      TZ: ${TIMEZONE}
+    ports:
+      - "81:81"
+    depends_on:
+      database:
+        condition: service_healthy
+
+  database:
+    container_name: ${MYSQL_HOST}
+    build:
+      context: ..
+      dockerfile: .docker/mysql/Dockerfile
+      args:
+        MYSQL_VER: 8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      TZ: ${TIMEZONE}
+    volumes:
+      - data:/var/lib/mysql
+    healthcheck:
+      test: [ "CMD", "mysql", "--user=${MYSQL_USER}", "--password=${MYSQL_PASSWORD}", "-e", "quit" ]
+      timeout: 2s
+      interval: 2s
+      retries: 10
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    links:
+      - database
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: always
+    ports:
+      - 8085:80
+      
+volumes:
+  data:
