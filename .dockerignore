@@ -1,0 +1,21 @@
+# CakePHP
+/Thermian/Web/logs/*
+/Thermian/Web/tmp/*
+
+# PHP
+/vendor/*
+
+# Environment
+**/.env
+
+# PHPUnit
+.phpunit.result.cache
+
+# Python
+/Thermian/Application/HotspotSystem/HotspotAI/venv
+/Thermian/Application/HotspotSystem/HotspotAI/venv-local
+/Thermian/Application/HotspotSystem/HotspotAI/.idea/*
+/Thermian/Application/HotspotSystem/HotspotAI/models
+
+# Persistence
+/persistence
