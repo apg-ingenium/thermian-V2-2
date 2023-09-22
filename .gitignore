@@ -1,0 +1,47 @@
+# CakePHP #
+##########################
+/Thermian/Web/logs/*
+/Thermian/Web/tmp/*
+/vendor/*
+
+# Python specific files #
+##########################
+/Thermian/Application/HotspotSystem/HotspotAI/venv
+/Thermian/Application/HotspotSystem/HotspotAI/venv-local
+/Thermian/Application/HotspotSystem/HotspotAI/.idea/*
+/Thermian/Application/HotspotSystem/HotspotAI/models/
+**/*.pyc
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.directory
+
+# Tool specific files #
+#######################
+
+# environment
+**/.env
+
+# PHPUnit
+.phpunit.result.cache
+
+# JetBrains
+.idea/*
+*.iml
+
+# Sass
+.sass-cache/
+
+# debugkit
+debug_kit.sqlite
+
+# Persistence
+/persistence
